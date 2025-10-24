@@ -1,0 +1,77 @@
+.best-deals-container {
+   padding: 20px 0 70px ;;
+}
+.best-deal-filter {
+    padding: 0 70px;
+}
+.catagory-container {
+    display: flex;
+    gap : 50px;
+    
+    margin-bottom: 56px;
+}
+
+.catagory-tab {
+      transition: 0.3s;
+
+
+}
+.catagory-tab button:hover,
+.catagory-tab button:focus
+ {
+  border-bottom: 3px solid  #025595;
+  color:  #025595;
+  font-weight: 700;
+}
+
+/* Create an active/current tablink class */
+.catagory-tab button.active  {
+  background-color: #ccc;
+}
+
+
+.catagory-tab button {
+    background-color: white;
+    padding: 10px;
+    border: none;
+    font-family: "Inter" , Arial, Helvetica, sans-serif;
+   font-weight: 400;
+   font-size: 18px;
+
+
+}
+
+.catagory-tab :hover {
+  cursor: pointer;
+}
+
+.card-container {
+    display: grid ;
+    grid-template-columns: repeat( 3, 400px);
+    gap : 30px;
+}
+
+@media (max-width : 480px) {
+    .best-deal-filter {
+        padding: 0 20px;
+    }
+    .catagory-container {
+    display: grid;
+    grid-template-columns:max-content;
+    gap : 30px;
+    width: 300px;
+    margin-bottom: 56px;
+}
+
+.catagory-tab button {
+   font-size: 16px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+  
+    gap : 20px;
+}
+
+}

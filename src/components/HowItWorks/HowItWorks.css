@@ -1,0 +1,109 @@
+.hiw-container {
+    margin: 94px 70px;
+}
+
+.hiw-title {
+    margin-bottom: 56px;
+}
+
+.hiw-title h2 {
+    font-family: Inter;
+font-weight: 700;
+font-style: Bold;
+font-size: 39px;
+
+}
+
+.hiw-title p {
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 26px;
+    color: #22222280;
+}
+
+.hiw-info {
+    display: flex;
+    gap : 50px;
+    
+
+}
+.hiw-info :hover {
+   background-color: #025595;
+   color: white;
+}
+
+.hiw-info-section {
+    width: 400px;
+   
+    border-radius: 15px;
+    padding: 30px 45px 80px 45px;
+    
+}
+
+
+.hiw-info-section-logo {
+    margin-bottom: 20px;
+    width: 42px;
+    background-color: white ;
+}
+
+
+.hiw-info-section-title h5{
+    font-family: "Inter" ,Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 22px;
+   line-height: 100%;
+   margin-bottom: 10px;
+
+}
+
+.hiw-info-section-title p {
+     font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 24px;
+   
+
+}
+
+@media (max-width : 480px) {
+    .hiw-container {
+    margin: 64px 30px;
+}
+
+.hiw-title {
+    margin-bottom: 42px;
+}
+
+.hiw-title h2 {
+    margin-bottom: 6px;
+}
+
+.hiw-info {
+    display: flex;
+    flex-direction: column;
+    gap : 20px;
+    
+
+}
+
+.hiw-info-section {
+    width: 320px;
+    border-radius: 15px;
+    padding: 15px 17.5px 28px 17.5px;
+    
+}
+
+.hiw-info-section-logo img {
+    width: 40px;
+}
+
+
+
+
+
+}

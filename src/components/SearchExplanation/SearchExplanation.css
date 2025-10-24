@@ -1,0 +1,75 @@
+.dream-house {
+    padding: 107px 380px;
+    background-image: url("./images/findhome.png");
+    width: 100%;
+    height: 380px;
+    justify-content: center;
+    text-align: center;
+   
+   filter: brightness(60%);
+   width: 100%;
+   z-index: -1;
+  position: relative;
+}
+
+
+.dream-house-content {
+  z-index: 1;
+  position: absolute ;
+
+}
+
+.dream-house-content h2 {
+    font-family: "Inter" ,Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 70px;
+    line-height: 56px;
+    color: #FFFFFF;
+    margin-bottom: 58px;
+
+}
+
+.dream-house-content p {
+    font-family: Inter;
+    font-weight: 400;
+   font-style: Regular;
+   font-size: 30px;
+   line-height: 26px;
+   width: 606px;
+   color: #FFFFFF;
+
+}
+
+@media (max-width : 480px) {
+   .dream-house {
+    padding: 130px 25px;
+   filter: brightness(60%);
+   z-index: -1;
+   position: relative;
+ 
+}
+.dream-house-content {
+  z-index: 1;
+  position: absolute ;
+ 
+ 
+}
+
+.dream-house-content h2 {
+    font-size: 30px;
+    
+    color: #FFFFFF;
+    margin-bottom: 20px;
+
+}
+
+.dream-house-content p {
+   
+   font-size: 15px;
+   color: #FFFFFF;
+   width: 338px;
+  
+
+}
+}

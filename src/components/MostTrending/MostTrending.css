@@ -1,0 +1,25 @@
+.most-trending-container {
+   margin: 94px 100px;
+}
+
+
+
+
+.trending-cards-container {
+   display: grid;
+   grid-template-columns: repeat(3 ,30%);
+   gap: 25px;
+}
+
+@media (max-width : 480px) {
+    .most-trending-container {
+    margin: 64px 4vw;
+   
+}
+
+    .trending-cards-container {
+   display: flex ;
+   flex-direction: column;
+   gap: 25px;
+}
+}

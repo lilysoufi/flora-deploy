@@ -1,0 +1,59 @@
+.trending-card-container {
+   padding: 20px;
+   box-shadow: 0px 0px 10px 0px #0000001A;
+
+}
+.trending-card-container #house-image {
+    width : 98%;
+    height: 50%;
+}
+
+.trending-card-container #card-price {
+    font-family: "Inter" , Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 18px;
+    color: #025595;
+    margin-top: 16px;
+    margin-bottom: 5px;
+
+
+}
+
+.trending-card-container #card-title {
+    font-family: "Inter" ,Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-style: Semi Bold;
+   font-size: 18px;
+ 
+
+}
+
+.card-location #location-image {
+    margin-top: 38px;;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-location #location {
+    font-family: "Inter" ,Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+
+}
+
+@media (max-width : 480px) {
+    .card-container #house-image {
+      width: 98%;
+      height: 190px;
+
+}
+
+.card-location {
+    margin-top: 72px;;
+ 
+}
+
+}

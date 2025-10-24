@@ -1,0 +1,29 @@
+.section-header{
+    margin: 94px 90px;
+}
+
+.section-header #title {
+    font-family: Inter;
+font-weight: 700;
+font-style: Bold;
+font-size: 39px;
+
+
+}
+
+.section-header #para {
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    margin-bottom: 56px;
+    margin-top: 8px;
+    color: #22222280;
+}
+
+@media (max-width : 480px) {
+    .section-header{
+        margin: 0 20px ;
+        margin-bottom: 42px;
+    }
+}

@@ -1,0 +1,138 @@
+.hero-container {
+   
+    background-image: url("./images/modern-residential-building-transformed 1 (2).png");
+   
+    background-position: right center;
+    background-repeat: no-repeat;
+    height: 559px;
+   
+    
+
+}
+
+.hero-left {
+    margin: 32px 0 0px 70px ;
+
+    
+}
+.hero-left .hero-left-title {
+      margin-bottom: 50px;
+}
+.hero-left .hero-left-title p {
+    width: 35%;
+    color: #22222280;
+
+}
+.hero-container h1 {
+    width: 41%;
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+   font-size: 60px;
+  line-height: 80px;
+  margin-bottom: 20px;
+}
+
+.hero-container p {
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22222280;
+
+}
+
+.hero-info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+     background-color: rgba(255, 255, 255, 0.9);
+     width: 868px;
+     height: 100px;
+     border-radius: 16px;
+}
+
+.hero-info-section-logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 15px;
+    background-color: #EFF8FF;
+}
+
+.hero-info-section-title {
+    margin-left: 20px;
+    font-family: "Inter";
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero-info-section {
+    display: flex;
+}
+
+@media (max-width : 480px) {
+    .hero-container {
+   
+    background-image: url("./images/modern-residential-building-transformed 1 (2).png");
+    background-position: bottom center ;
+    height: 700px;
+ 
+}
+
+.hero-left {
+    margin: 0px 0px;
+    
+}
+.hero-left .hero-left-title {
+     margin: 0px 20px;
+      margin-bottom: 35px;
+      align-content: center;
+}
+.hero-container h1 {
+    width: 100%;
+    font-size: 35px;
+   line-height: 46px;
+
+}
+
+.hero-left .hero-left-title p {
+    width: 100%;
+    font-size: 14px;
+}
+
+.hero-info {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+     width: 100%;
+     height: max-content;
+     border-radius: 16px;
+    
+}
+.hero-info-section-logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 15px;
+    background-color: #EFF8FF;
+    
+}
+
+.hero-info-section-title {
+    margin-left: 20px;
+    font-family: "Inter";
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero-info-section {
+    display: flex;
+    margin: 20px 30px;
+    width: 90%;
+}
+
+}

@@ -1,18 +1,18 @@
 import './Footer.css'
 
-interface FooterSummary {
-    title : string ;
-    subsection1 : string ,
+export interface FooterSummary {
+     title : string ;
+     subsection1 : string ,
      subsection2 : string ,
      subsection3 : string ,
      subsection4 :string 
 }
 
-interface Footerprops {
+export interface Footerprops {
     logo : string ;
     logoName : string ;
     desc : string ;
-    footersummary : FooterSummary[];
+    footerSummary : Array<FooterSummary>;
     faceLogo : string ;
     xlogo : string ;
     linkedinlogo : string;
@@ -23,7 +23,7 @@ interface Footerprops {
 }
 
 
-const Footer = ({logo , logoName , desc , footersummary , faceLogo ,xlogo ,linkedinlogo ,copyright , terms , privacy} : Footerprops) => {
+const Footer = ({logo , logoName , desc , footerSummary , faceLogo ,xlogo ,linkedinlogo ,copyright , terms , privacy} : Footerprops) => {
 
     return (
     <div className='footer-container'>
@@ -39,7 +39,7 @@ const Footer = ({logo , logoName , desc , footersummary , faceLogo ,xlogo ,linke
       
       <div className='summarry-logos'>
       <div className='summary-container'>
-        {footersummary.map((data) => {
+        {footerSummary.map((data) => {
           return (
             <div  className='summary'>
                 <h6>{data.title}</h6>

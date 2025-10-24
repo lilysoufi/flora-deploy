@@ -110,7 +110,7 @@ const Home = () => {
 
   
    
-     let summaryData =[
+     let summaryData = [
         {
             title : 'Service' ,
             subsection1 :  "Payment & Tax" ,
@@ -129,7 +129,10 @@ const Home = () => {
         ,
         {
           title : 'Our Location' ,
-           subsection1 :  "2972 Westheimer Rd. Santa Ana, Illinois 85486 "
+           subsection1 :  "2972 Westheimer Rd. Santa Ana, Illinois 85486 " ,
+            subsection2 : "" ,
+            subsection3 : "" ,
+            subsection4 : ""
         }
     ]
   return (
@@ -147,10 +150,11 @@ const Home = () => {
      
      />
      <Footer 
-      footersummary={summaryData}
+      
       logo = './images/Vector.png'
       logoName="./images/Flora.png"
       desc ="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet tempus felis vitae sit est quisque."
+      footerSummary={summaryData}
       faceLogo="./images/Vector (1).png"
       xlogo="./images/twitter-fill.png"
       linkedinlogo="./images/linkedin-fill.png"
